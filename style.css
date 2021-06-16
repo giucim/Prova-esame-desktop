@@ -1,0 +1,96 @@
+body{
+
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+
+display: grid;
+grid-template-columns: 1fr 3fr;
+grid-template-areas: "area1 area2 area2 area2"
+"area1 area3 area3 area3";
+
+}
+
+aside {
+
+   
+   
+    grid-area: area1;
+    height: 800px;
+    background-color: darkgray;
+    display: flex;
+ justify-content: center;
+
+
+    
+}
+
+header {
+
+  
+    display: flex;
+    justify-content: space-around;
+    grid-area: area2;
+    height: 50px;
+    align-items: center;
+    background-color: beige;
+
+}
+
+.Centro {
+    
+  
+   grid-area: area3;
+    
+    height: 750px;
+    display: flex;
+ 
+
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+
+.Form {
+
+    height: 20px;
+    width: 180px;
+    background-color: darkgrey;
+    border-radius: 5px;
+
+}
+
+.Sfondo {
+
+    background-color: darkgrey;
+    height: 30px;
+    border-radius: 5px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Rectangle {
+
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 30px;
+    
+}
+
+.Icon {
+
+
+    background-color: darkgrey;
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
